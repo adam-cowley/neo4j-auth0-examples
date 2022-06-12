@@ -1,0 +1,19 @@
+{
+  "name": "@neo4j-labs/auth0-neo4j",
+  "version": "1.0.0",
+  "description": "Callback functions to create a Custom Database Connection to Neo4j in Auth0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest **.test.js",
+    "dev": "jest --detectOpenHandles --watch **.test.js"
+  },
+  "author": "Adam Cowley <adam@neo4j.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "neo4j-driver": "^4.3.3"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
