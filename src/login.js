@@ -4,7 +4,7 @@ const WrongUsernameOrPasswordError = require("./test/wrong-username-or-password-
 
 function login(email, plainPassword, callback) {
   const bcrypt = require("bcrypt");
-  const neo4j = require("neo4j-driver");
+  const neo4j = require("neo4j-driver@4.3.3");
 
   const driver = neo4j.driver(
     configuration.NEO4J_URI,

@@ -2,7 +2,7 @@
 const configuration = require("./test/config");
 
 function remove(id, callback) {
-  const neo4j = require("neo4j-driver");
+  const neo4j = require("neo4j-driver@4.3.3");
 
   const driver = neo4j.driver(
     configuration.NEO4J_URI,
